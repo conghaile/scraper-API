@@ -1,7 +1,5 @@
-module github.com/conghaile/write-only-API
+module github.com/conghaile/simple-API
 
 go 1.19
 
-require github.com/gorilla/mux v1.8.0
-
-require github.com/lib/pq v1.10.7
+replace github.com/conghaile/simple-API => ./

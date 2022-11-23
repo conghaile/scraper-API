@@ -1,8 +1,8 @@
 build:
-	@go build -o bin/roapi
+	@go build -o bin/simpleapi
 
 run: build
-	@./bin/roapi
+	@./bin/simpleapi
 
 test:
 	@go test -v ./...
